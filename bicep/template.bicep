@@ -5,7 +5,6 @@ resource storageAccounts_rajeshstore05282024_name_resource 'Microsoft.Storage/st
   location: 'westeurope'
   sku: {
     name: 'Standard_LRS'
-    tier: 'Standard'
   }
   kind: 'StorageV2'
 }
